@@ -1,0 +1,45 @@
+#!/usr/bin/python
+from engine import *
+
+#
+time.sleep(5)
+p1.start(40)
+p2.start(40)
+
+forward(0.3, 40, 0.9)
+stop()
+time.sleep(3)
+left(0.5, 40, 0.2)
+time.sleep(2)
+left(0.5, 40, 0.2)
+time.sleep(2)
+reverse(0.5, 40, 0.9)
+time.sleep(2)
+right(0.5, 40, 0.2)
+time.sleep(2)
+right(0.5, 40, 0.2)
+time.sleep(2)
+right(0.5, 40, 0.2)
+time.sleep(2)
+reverse(0.5, 40, 0.9)
+
+time.sleep(4)
+
+forward(0.1, 60, 0.3)
+reverse(0.2, 60, 0.3)
+forward(0.1, 60, 0.3)
+left(0.3, 60, 0.2)
+forward(0.1, 60, 0.3)
+reverse(0.2, 60, 0.3)
+forward(0.1, 60, 0.3)
+left(0.3, 60, 0.2)
+forward(0.1, 60, 0.3)
+reverse(0.2, 60, 0.3)
+forward(0.1, 60, 0.3)
+left(0.3, 60, 0.2)
+forward(0.1, 60, 0.3)
+reverse(0.2, 60, 0.3)
+forward(0.1, 60, 0.3)
+right(2, 80, 1)
+
+stop()
